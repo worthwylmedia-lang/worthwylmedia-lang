@@ -20,6 +20,16 @@ This account is the public-facing front door to the ecosystem. It is intentional
 | **Boot / Demo Delivery** | Appliance and acquisition demonstration surfaces | `worthwyl2022-cloud/cranium-boot-drive`, `cranium-acquisition-demo-drive` |
 | **Historical Lineage** | Archived and supporting engineering history | `worthwyl2022-cloud/cranium-archive` |
 
+## Production System of Record
+
+**The production implementation lives at [`worthwyl2022-cloud`](https://github.com/worthwyl2022-cloud).**
+
+This account is the public-facing front door. For source implementation, engineering history, active verification, production repositories, and authoritative technical evidence, proceed to the production account.
+
+> **worthwylmedia-lang explains and directs. worthwyl2022-cloud implements and proves.**
+
+The production account contains the authoritative repository lineage, including Cranium Kernel, Cranium Synapse, Cranium AI, the Commander/operator implementation, diligence and verification tooling, and delivery surfaces.
+
 ## Two-account model
 
 ### Public front door
