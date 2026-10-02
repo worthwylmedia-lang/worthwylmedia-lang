@@ -2,11 +2,17 @@
 
 ## Public Front Door · worthwylmedia-lang
 
-Convertible Cranium is an **authority-bound dual-engine governance substrate** designed to separate cognition from authority, evidence from execution, and operational control from canonical truth.
+Convertible Cranium is an **authority-bound dual-substrate / quad-engine governance substrate** designed to separate cognition from authority, evidence from execution, and operational control from canonical truth.
 
 > **Cognition may come from anywhere. Authority comes only through Cranium.**
 
 This account is the public-facing front door to the ecosystem. It is intentionally **not a second production account** and does not duplicate the authoritative implementation.
+
+## Current architecture at a glance
+
+Convertible Cranium now uses a Dual-Substrate / Quad-Engine architecture. The four engines are Cranium AI, Synapse, Governance Review Juror One, and Governance Review Juror Two. The two jurors have deliberately different review mandates and processes and neither issues authority. The Convertible Cranium Kernel remains the sole canonical authority source. Cranium Listener is untrusted ingress; Commander OS is the operational control surface; Miracle Memory provides governed continuity; Circuit Breaker / COMA provides cross-cutting runtime safety and recovery.
+
+The former Dual-Engine and Eight-Plane descriptions are historical framing only.
 
 ## Architecture at a glance
 
