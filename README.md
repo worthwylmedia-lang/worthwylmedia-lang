@@ -24,6 +24,7 @@ The former Dual-Engine and Eight-Plane descriptions are historical framing only.
 | **Cranium Commander** | Operational control surface and governed execution interface | `worthwyl2022-cloud/cranium-ultra-platform` |
 | **Diligence Workbench** | Verification and acquisition review | `worthwyl2022-cloud/cranium-diligence-workbench` |
 | **Boot / Demo Delivery** | Appliance and acquisition demonstration surfaces | `worthwyl2022-cloud/cranium-boot-drive`, `cranium-acquisition-demo-drive` |
+| **WorthWyl Studio** | Human-facing creation, operations, diligence, and project workspace; retained Forge engine underneath | `worthwyl2022-cloud/worthwyl-forge` |
 | **Historical Lineage** | Archived and supporting engineering history | `worthwyl2022-cloud/cranium-archive` |
 
 ## Production System of Record
