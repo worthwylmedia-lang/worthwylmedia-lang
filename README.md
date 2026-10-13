@@ -19,7 +19,7 @@ The former Dual-Engine and Eight-Plane descriptions are historical framing only.
 | Layer | Role | System of record |
 |---|---|---|
 | **Cranium AI** | Cognitive proposal, intelligence, and orchestration | `worthwyl2022-cloud/cranium-ai` |
-| **Cranium Synapse** | Evidence, assessment, attestation, and trust evaluation | `worthwyl2022-cloud/cranium-synapse` |
+| **Convertible Cranium Synapse** | Engine 1: proposal formation, D_A/D_B projections, evidence binding, and trace commitment | `worthwyl2022-cloud/cranium-synapse` |
 | **Cranium Kernel** | Canonical authority and governed state transitions | `worthwyl2022-cloud/cranium-kernel` |
 | **Cranium Commander** | Operational control surface and governed execution interface, not an authority source | `worthwyl2022-cloud/convertible-cranium-commander` |
 | **Diligence Workbench** | Verification and acquisition review | `worthwyl2022-cloud/cranium-diligence-workbench` |
