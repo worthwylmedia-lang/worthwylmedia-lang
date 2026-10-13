@@ -10,7 +10,7 @@ This account is the public-facing front door to the ecosystem. It is intentional
 
 ## Current architecture at a glance
 
-Convertible Cranium now uses a Dual-Substrate / Quad-Engine architecture. The four engines are Cranium AI, Synapse, Governance Review Juror One, and Governance Review Juror Two. The two jurors have deliberately different review mandates and processes and neither issues authority. The Convertible Cranium Kernel remains the sole canonical authority source. Cranium Listener is untrusted ingress; Commander OS is the operational control surface; Miracle Memory provides governed continuity; Circuit Breaker / COMA provides cross-cutting runtime safety and recovery.
+Convertible Cranium uses a dual-substrate, quad-engine authority-bound architecture. Cranium Listener is untrusted ingress. Engine 1, Convertible Cranium Synapse, forms proposals, produces the D_A/D_B projections, binds evidence, and commits trace information. Engine 2A, the Constitutional Authority substrate, uses Jury A1+A2 to evaluate “May We?” Engine 2B, the Evidence Grounding substrate, uses Jury B1+B2 to evaluate “Is It So?” These substrates have distinct constitutions and policies. Engine 3, Cranium Kernel, verifies convergence and lineage and is the sole authority boundary. Only after that boundary may governed execution proceed, with receipts and lineage. Models and Cranium AI may propose cognition; they do not grant authority. Commander OS is the operational interface, Miracle Memory provides governed continuity, and Circuit Breaker / COMA supplies cross-cutting runtime safety and recovery.
 
 The former Dual-Engine and Eight-Plane descriptions are historical framing only.
 
@@ -21,7 +21,7 @@ The former Dual-Engine and Eight-Plane descriptions are historical framing only.
 | **Cranium AI** | Cognitive proposal, intelligence, and orchestration | `worthwyl2022-cloud/cranium-ai` |
 | **Cranium Synapse** | Evidence, assessment, attestation, and trust evaluation | `worthwyl2022-cloud/cranium-synapse` |
 | **Cranium Kernel** | Canonical authority and governed state transitions | `worthwyl2022-cloud/cranium-kernel` |
-| **Cranium Commander** | Operational control surface and governed execution interface | `worthwyl2022-cloud/cranium-ultra-platform` |
+| **Cranium Commander** | Operational control surface and governed execution interface, not an authority source | `worthwyl2022-cloud/convertible-cranium-commander` |
 | **Diligence Workbench** | Verification and acquisition review | `worthwyl2022-cloud/cranium-diligence-workbench` |
 | **Boot / Demo Delivery** | Appliance and acquisition demonstration surfaces | `worthwyl2022-cloud/cranium-boot-drive`, `cranium-acquisition-demo-drive` |
 | **WorthWyl Studio** | Human-facing creation, operations, diligence, and project workspace; retained Forge engine underneath | `worthwyl2022-cloud/worthwyl-forge` |
@@ -61,7 +61,7 @@ Commander can present system state, construct proposals, orchestrate governed wo
 
 Commander does **not** replace the Kernel, create canonical authority, redefine constitutional truth, or become an independent system of record.
 
-The production Commander/operator implementation is mapped through `worthwyl2022-cloud/cranium-ultra-platform`.
+The production Commander/operator implementation is [`worthwyl2022-cloud/convertible-cranium-commander`](https://github.com/worthwyl2022-cloud/convertible-cranium-commander). The archived `cranium-ultra-platform` repository is historical lineage, not the current Commander entry point.
 
 ## Evidence discipline
 
